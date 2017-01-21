@@ -1,0 +1,328 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/*index Page*/
+.indexBody {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/bg.jpg") no-repeat center center scroll;	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.itemCenter {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.itemCenter button{
+	text-decoration: none;
+	margin: 5px 0 5px 0;
+}
+
+.front-btn-width {
+	margin-top: 5%;
+	margin-left: 37%;
+	width: 220px;
+}
+
+#title_name {
+	font-size: 4em;
+}
+
+#h2-custom {
+	font-size: 40px;
+}
+/*index Page*/
+
+/*Register_Penghuni (Step 1)*/
+.container .right {
+	float: right;
+	right: 20px;
+	position: relative;
+}
+
+.container .left {
+	float: left;
+	position: relative;
+}
+
+.btnContainer {
+	overflow: hidden;
+	position: relative;
+	/*height: 100%;*/
+	margin: 5% 0 2% 0;
+}
+
+.prog_border {
+	position: relative;
+}
+
+.regBody {
+	background: url(../images/regbg.png);
+}
+
+.formBG {
+	background: white;
+	position: relative;
+}
+
+.input_right{
+	position: relative;
+	float: right;
+}
+
+.form-space {
+	margin: 2% 0 2% 0;
+}
+
+.control-label-edit {
+	padding-top: 7px;
+	margin-bottom: 0;
+}
+
+.main {
+	padding-bottom: 150px;
+}
+
+.stick_btm , .push {
+	height: 140px;
+}
+
+#ahli_table {
+	position: relative;
+    margin: 10px auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.brg {
+	cursor: default;
+	font-weight: bold;
+	border: 0;
+}
+
+.hideOption {
+	display: none;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+.err_msg {
+	display: none;
+}
+/*Register_Penghuni (Step 1)*/
+
+/*Register Info Error*/
+.error {
+	border: 1px solid #ff0000;
+}
+/*Register Info Error*/
+
+/*Register_Penghuni (Step 3)*/
+.form-edit {
+	width: 30%;
+	vertical-align: middle;
+	display: inline-block;
+	height: 34px;
+	padding:6px 12px;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius:  4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-edit:focus {
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);
+}
+/*Register_Penghuni (Step 3)*/
+
+/*Register_Penghuni (Agreement 1)*/
+.agreement_box {
+	margin: 30px;
+	overflow: auto;
+	border: solid 1px black;
+}
+
+.agreement_box p {
+	padding: 15px;
+}
+
+.word {
+	margin: 40px;
+}
+
+.word-clear-top {
+	margin: 0 40px 40px 40px;
+}
+
+.word-left-right {
+	margin: 0 40px 0 40px;
+}
+
+.word-right-btm {
+	margin: 0 40px 40px 0;
+}
+
+.btn-setuju {
+	cursor: not-allowed;
+}
+/*Register_Penghuni (Agreement 1)*/
+
+/*Seach*/
+.list-group {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.list-group-item {
+	border: 0;
+	padding: 0;
+}
+
+.tab-margin {
+	margin-bottom: 10%;
+}
+
+.panel-heading {
+	border-bottom: 1px #D3D3D3 solid;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+.panel-body .list-group .list-group-item .checkbox label {
+	margin: 10px 15px;
+}
+
+[data-toggle="collapse"] {
+  cursor: pointer;
+}
+
+[data-toggle="collapse"][aria-expanded] {
+  position: relative;
+}
+
+[data-toggle="collapse"][aria-expanded]:after {
+  right: 0;
+  content: "";
+  color: #333333;
+  font-size: 11px;
+  line-height: 18px;
+  position: absolute;
+  font-family: 'FontAwesome';
+}
+
+[data-toggle="collapse"][aria-expanded="true"]:after {
+  content: "\f078";
+  border: none;
+}
+
+[data-toggle="collapse"][aria-expanded="false"]:after {
+  content: "\f077";
+  border: none;
+}
+
+.place_btn {
+	float: right;
+}
+
+.place_btn button {
+	margin: 26px 15px 26px 15px;
+	position: relative;
+}
+
+.place_info {
+	float: left;
+}
+
+.panel-container {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	height: 100%;
+}
+
+.panel-container-r {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 15px 10px 15px;
+	height: 100%;
+}
+
+.head_container {
+	margin: 20px 0 20px 0;
+	overflow: hidden;
+}
+
+.input-group-btn-edit {
+	position: relative;
+	font-size: 0;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: table-cell;
+	margin-left: -1px;
+}
+
+input[type="checkbox"]:focus, button:focus {
+	outline: none !important;
+}
+/*Search*/
+
+/* Details */
+#tab_option .nav-tabs > li > a {
+	border-radius: 2px 2px 0 0;
+	outline: none;
+}
+
+#tab_option .tab-content {
+	border-radius: 0 0  2px 2px; 
+	border: 1px solid #ddd;
+	border-top-style: none; 
+	padding : 5px 15px;
+}
+
+.info_view {
+	font-size: 25px;
+}
+
+.tab-content.clearfix.fontfix.penghuni_details label {
+	font-size: 20px;
+}
+
+.tab-content.clearfix.fontfix span {
+	font-size: 17px;
+}
+
+.panel-ahli {
+	margin-top: 30px;
+}
+
+#block {
+	overflow: hidden;
+	position: relative;
+}
+/* Details */
